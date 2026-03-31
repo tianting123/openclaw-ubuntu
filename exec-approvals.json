@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "socket": {
+    "path": "/home/tianting/.openclaw/exec-approvals.sock",
+    "token": "kuBPaxxDX7UWbu_njyQAraJHetR5ygBv"
+  },
+  "defaults": {},
+  "agents": {}
+}

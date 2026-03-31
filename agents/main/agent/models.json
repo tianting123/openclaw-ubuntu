@@ -1,0 +1,293 @@
+{
+  "providers": {
+    "qwen-portal": {
+      "baseUrl": "https://portal.qwen.ai/v1",
+      "apiKey": "qwen-oauth",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "coder-model",
+          "name": "Qwen Coder",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        },
+        {
+          "id": "vision-model",
+          "name": "Qwen Vision",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "github-copilot": {
+      "baseUrl": "https://api.individual.githubcopilot.com",
+      "models": []
+    },
+    "xiaomi": {
+      "baseUrl": "https://api.xiaomimimo.com/anthropic",
+      "api": "anthropic-messages",
+      "models": [
+        {
+          "id": "mimo-v2-flash",
+          "name": "Xiaomi MiMo V2 Flash",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 8192,
+          "api": "anthropic-messages"
+        }
+      ],
+      "apiKey": "q"
+    },
+    "modelstudio": {
+      "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "qwen3.5-plus",
+          "name": "qwen3.5-plus",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "api": "openai-completions",
+          "compat": {
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "qwen3-max-2026-01-23",
+          "name": "qwen3-max-2026-01-23",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 65536,
+          "api": "openai-completions",
+          "compat": {
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "qwen3-coder-next",
+          "name": "qwen3-coder-next",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 65536,
+          "api": "openai-completions",
+          "compat": {
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "qwen3-coder-plus",
+          "name": "qwen3-coder-plus",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "api": "openai-completions",
+          "compat": {
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "MiniMax-M2.5",
+          "name": "MiniMax-M2.5",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "api": "openai-completions",
+          "compat": {
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 202752,
+          "maxTokens": 16384,
+          "api": "openai-completions",
+          "compat": {
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "glm-4.7",
+          "name": "glm-4.7",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 202752,
+          "maxTokens": 16384,
+          "api": "openai-completions",
+          "compat": {
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "kimi-k2.5",
+          "name": "kimi-k2.5",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 32768,
+          "api": "openai-completions",
+          "compat": {
+            "supportsUsageInStreaming": true
+          }
+        }
+      ],
+      "apiKey": "sk-a6ea1f2fc94948809776d1e8db3beaae"
+    },
+    "英伟达nvidia": {
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "apiKey": "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",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "moonshotai/kimi-k2.5",
+          "name": "moonshotai/kimi-k2.5",
+          "reasoning": false,
+          "input": [
+            "image",
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "nvidia-custom": {
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "apiKey": "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",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "moonshotai/kimi-k2.5",
+          "name": "moonshotai/kimi-k2.5",
+          "reasoning": false,
+          "input": [
+            "image",
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "entries": {
+    "/home/tianting/.openclaw/openclaw.json": {
+      "lastKnownGood": {
+        "hash": "aff1cec18fffa4891db8006d7543ecc7d04b6e62cb230cec52f9c27f306e64bf",
+        "bytes": 9352,
+        "mtimeMs": 1774894293629.1965,
+        "ctimeMs": 1774894293632.1965,
+        "dev": "2050",
+        "ino": "1200753",
+        "mode": 384,
+        "nlink": 1,
+        "uid": 1000,
+        "gid": 1000,
+        "hasMeta": true,
+        "gatewayMode": "local",
+        "observedAt": "2026-03-30T18:11:34.240Z"
+      },
+      "lastObservedSuspiciousSignature": null
+    }
+  }
+}

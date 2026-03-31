@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "profiles": {
+    "qwen-portal:default": {
+      "type": "oauth",
+      "provider": "qwen-portal",
+      "access": "ro4aJxyyS-dNfDFytbEONWLyd-faRg7NxhibKGJOavLG6vUsCcuRucCAyPQmvXHkHcK_v4MaAhv16_4SUkSAbg",
+      "refresh": "q7xmlozFLEE2grrwB8dg9kt5POwNTTzaFL6kIEIxqXRVOBVf_Jb15uQk86u5hPANi3mN-cQFdzQDWzqMB5PFeA",
+      "expires": 1772978211035
+    },
+    "xiaomi:default": {
+      "type": "api_key",
+      "provider": "xiaomi",
+      "key": "sk-c9gmym7g2xv3phc2c6mr81qk2e4mn36efgwaeybvfyjgum74"
+    },
+    "modelstudio:default": {
+      "type": "api_key",
+      "provider": "modelstudio",
+      "key": "sk-a6ea1f2fc94948809776d1e8db3beaae"
+    }
+  },
+  "lastGood": {
+    "xiaomi": "xiaomi:default",
+    "modelstudio": "modelstudio:default"
+  },
+  "usageStats": {
+    "qwen-portal:default": {
+      "errorCount": 0,
+      "lastUsed": 1772957094327
+    },
+    "xiaomi:default": {
+      "errorCount": 0,
+      "lastUsed": 1774882036656
+    },
+    "modelstudio:default": {
+      "errorCount": 0,
+      "lastFailureAt": 1774882235231,
+      "lastUsed": 1774882235244
+    }
+  }
+}
